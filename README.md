@@ -11,5 +11,6 @@ Most shared hosts have disabled the HTTP Authorization Header by default.
 To enable this option you’ll need to edit your .htaccess file by adding the following:
 - RewriteCond %{HTTP:Authorization} ^(.*)
 - RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
+## অনেক ওয়ার্ডপ্রেস সাইট বট ব্লক করে । requests লাইব্রেরি পরিবর্তে cloudscraper লাইব্রেরি দিয়ে পোষ্ট রিকোয়েস্ট দেন ।
 
 আমার নলেজে এগুলা আছে । কমেন্ট করতে পারেন এর বাইরে কিছু থাকলে ।
