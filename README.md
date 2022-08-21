@@ -9,7 +9,7 @@
 ## ৫. .htaccess ফাইল এ, আপডেট:
 Most shared hosts have disabled the HTTP Authorization Header by default.
 To enable this option you’ll need to edit your .htaccess file by adding the following:
-RewriteCond %{HTTP:Authorization} ^(.*)
-RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
+- RewriteCond %{HTTP:Authorization} ^(.*)
+- RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
 
 আমার নলেজে এগুলা আছে । কমেন্ট করতে পারেন এর বাইরে কিছু থাকলে ।
