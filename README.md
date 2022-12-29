@@ -6,11 +6,6 @@
 সিপ্যানেল হোস্টিং এ MOD সিকিউরিটি অপশন পেয়ে যাবে । বা হোস্টিং এর কাস্টমার সাপোর্ট এ কথা বলেন ।
 ## ৩. https ঠিক আছে কিনা, যদি WWW থাকলে URL এর সাথে WWW. অ্যাড করতে হবে (এর জন্য ২০০ রিটার্ন করতে পারে )
 ## ৪. PHP ৭.৪ ভার্সন সিলেক্ট করতে পারেন ।
-## ৫. .htaccess ফাইল এ, আপডেট:
-Most shared hosts have disabled the HTTP Authorization Header by default.
-To enable this option you’ll need to edit your .htaccess file by adding the following:
-- RewriteCond %{HTTP:Authorization} ^(.*)
-- RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
-## 6. অনেক ওয়ার্ডপ্রেস সাইট বট ব্লক করে । requests লাইব্রেরি পরিবর্তে cloudscraper লাইব্রেরি দিয়ে পোষ্ট রিকোয়েস্ট দেন ।
+## ৫. অনেক ওয়ার্ডপ্রেস সাইট বট ব্লক করে । requests লাইব্রেরি পরিবর্তে cloudscraper লাইব্রেরি দিয়ে পোষ্ট রিকোয়েস্ট দেন ।
 
 আমার নলেজে এগুলা আছে । কন্ট্রিবিউট করতে পারেন এর বাইরে কিছু থাকলে ।
