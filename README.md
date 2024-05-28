@@ -9,8 +9,7 @@ import requests
 import json
 username = 'admin'
 password = 'xxx xxx xxx xx xxx xxx'  # application pass
-url = 'https://domain.com/wp-json/wp/v2/job-listings'
-# Define the minimal data payload for the job post
+url = 'https://domain.com/wp-json/wp/v2/posts'
 post_data = {
     "title": "Test Job",
     "content": "Test content",
